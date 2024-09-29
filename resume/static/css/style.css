@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(20, 0, 30);
+}
+
 .navbar-dark{
     background-color: rgb(18, 1, 46);
 }
@@ -31,4 +35,12 @@
     width: 80%;
     height: auto;
     display: block;
+}
+
+.title{
+    color: #fff;
+}
+
+.name{
+    color: #4fffb0;
 }
