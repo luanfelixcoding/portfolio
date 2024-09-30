@@ -1,3 +1,9 @@
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+
 body{
     background-color: rgb(20, 0, 30);
 }
@@ -37,10 +43,41 @@ body{
     display: block;
 }
 
-.title{
+.name{
     color: #fff;
 }
 
-.name{
+.title{
     color: #4fffb0;
+}
+
+.social_links{
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_image{
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+.jumbtron{
+    background-color: #002244;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.display4{
+    color: #eef3f8;
+    font-size: 24px;
+}
+
+.lead{
+    font-size: 18px;
+    color: #28a745;
 }
