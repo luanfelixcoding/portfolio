@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content1 %}
+
+<div class="row my-2">
+    <div class="col-4 text-center my-5 text-light">
+        <h1 class="mt-5"> Stay Connected </h1>
+        <h3 class="mt-4"> luanfpcoding@gmail.com </h3>
+
+        <div class="d-flex justify-content-center align-items-center mt-4">
+            <a href="https://www.linkedin.com/in/luan-felix-pereira-060991257" target="_blank" class="ms-3">
+                <img src="{% static 'images/linkedin.png' %}" alt="images/linkedin.png" width="50" height="50"
+                    class="social_links">
+            </a>
+
+            <a href="https://github.com/luanfelixcoding" target="_blank" class="ms-3">
+                <img src="{% static 'images/github.png' %}" alt="images/linkedin.png" width="50" height="50"
+                    class="social_links">
+            </a>
+
+            <a href="https://gmail.com/luanfp01@gmail.com" target="_blank" class="ms-3">
+                <img src="{% static 'images/email.png' %}" alt="images/linkedin.png" width="50" height="50"
+                    class="social_links">
+            </a>
+        </div>
+    </div>
+    <div class="col-5 offset-1 mt-3">
+        <div class="container form-container">
+            <form>
+                <div class="form-group m-3">
+                    <label for="exampleInputEmail1">Name</label>
+                    <input type="text" class="form-control" placeholder="Enter name">
+                </div>
+
+                <div class="form-group m-3">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                </div>
+
+                <div class="form-group m-3">
+                    <label for="exampleInputEmail1">Message</label>
+                    <textarea class="form-control" id="msg" rows="2" placeholder="Enter message"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock content1 %}
