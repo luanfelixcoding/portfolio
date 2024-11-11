@@ -54,10 +54,14 @@ body{
 .social_links{
     overflow: hidden;
     border-radius: 50%;
-    border: 2px solid #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: ease-in-out 0.25s;
+}
+
+.social_links:hover{
+    transform: translateY(-10px);
 }
 
 .about_image{
@@ -86,5 +90,5 @@ body{
     border: 2px solid white;
     padding: 20px;
     border-radius: 10px;
-    background-color: #f0f0f0;
+    background-color: #f14949;
 }
